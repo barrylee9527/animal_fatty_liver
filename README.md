@@ -22,8 +22,11 @@
 </figure>
 
 ### 注意：第一个三分类模型输入是72*72，裁切图片的时候patch为54*54，第二个模型输入是96*96，裁切图片的时候patch为96*96
+
 ## 2.项目具体流程
+
 ![流程代码](流程图.png)
+
 # 运行环境要求
 ```python
 pip install keras==2.2.0
@@ -73,10 +76,13 @@ make clean      # 清理文件
 export LAPACK=~/src/lapack-3.6.0/   # 导出LAPACK环境变量
 ```
 # 代码整理封装
+
 ## maskrcnn
+
 该文件夹里面保存的是用于进行细胞核分割的代码,先是进行utils中的openslide_img.py进行在0级大图下进行裁切图片，
 得到图片以后修改main.py中的patchsize大小，以及需要进行maskrcnn分割的图片路径，然后在终端运行python main.py，即可得到细胞的轮廓mask
 ## etl
+
 该文件夹存放的是数据处理的代码，通过maskrcnn得到轮廓以后，运行该文件夹中的mask_np_read.py脚本，根据标注和mask轮廓即可裁切到细胞图片。
 
 一般而言，因为样本的数据量比较少，我们要进行数据增强，augement.py是进行增强的代码，Image_Augementation_master文件夹中是进行增强的具体方法代码
@@ -84,6 +90,7 @@ cut_img.py是进行将数据集划分的代码，根据需要设置合理的划�
 
 xml_utils.py是进行大图xml的解析代码，有时候比如ballooning数量较少，直接在大图中圈ballooning，那么extract_xml.py就是可以将大图中圈出来的地方截取下来进行maskrcnn提取轮廓
 ## TRAIN_TEST
+
 该文件夹存放训练相关的代码
 
 xception_train.py是模型训练时的代码
@@ -95,6 +102,7 @@ hepatocyte-prediction.py是进行绘制验证集或者测试集混淆矩阵的�
 cell_visualize.py是进行预测可视化的代码
 
 ## clr_back_train
+
 该文件夹保存的是用不同学习率训练的代码
 
 clr_callback.py是进行可选择改变学习率训练的模式代码
@@ -108,6 +116,7 @@ three-classi.py是进行调整学习率训练模型的代码
 ## POST_PROCESS
 
 # 使用范例说明
+
 1.拿到标注图和原图先进入maskrcnn文件夹，修改sys.ini配置文件，终端运行python main.py，然后会得到细胞核轮廓的mask，保存的是.py后缀的文件
 
 2.运行etl中的预处理代码进行切割，得到切割后的图片，进行数据集划分后进入训练准备
@@ -117,27 +126,37 @@ three-classi.py是进行调整学习率训练模型的代码
 
 # 历史训练结果
 ## 模型1的训练结果
+
 ### 训练过程
+
 <figure class="third">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片10.png"  height="200" width="400">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/54.png"  height="200" width="400">
 </figure>
 ### 混淆矩阵
+
 <figure class="third">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片20.png"  height="200" width="480">
 </figure>
+
 ### 模型1的模型权重位置：/cptjack/totem/barrylee/codes/find-7003-54/xception-all-tri.h5
+
 ## 模型2的训练结果
+
 ### 训练过程
+
 <figure class="third">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片11.png"  height="200" width="400">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片66.png"  height="200" width="400">
 </figure>
 ### 混淆矩阵
+
 <figure class="third">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片15.png"  height="200" width="480">
 </figure>
+
 ### 模型2的模型权重位置：/cptjack/totem/barrylee/codes/96-re-anno-hepatocyte-54/xception-hepatocyte.h5
+
 ## 模型预测的可视化
 
 ![相应颜色](./imgs/图片52.png)
