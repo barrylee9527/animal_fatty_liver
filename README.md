@@ -143,7 +143,7 @@ three-classi.py是进行调整学习率训练模型的代码
 <figure class="third">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/%231-129.png"  height="250" width="250">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/%231-514.png"  height="250" width="250">
-    <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/%23142-1510.png"  height="250" width="250">
+    <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/%23142-1510.png?raw=true"  height="250" width="250">
 </figure>
 
 
