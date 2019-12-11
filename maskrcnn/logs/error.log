@@ -1,0 +1,1178 @@
+2019-08-01 05:59:51,016 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 282, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),region_raw_tensor[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 253, in imsave
+    raise ValueError("Invalid shape for image array: %s" % (arr.shape, ))
+ValueError: Invalid shape for image array: (2, 299, 299, 3)
+2019-08-01 07:11:08,295 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 283, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 409, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 236, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
+2019-08-01 07:20:20,656 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 284, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 409, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 236, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
+2019-08-01 07:30:01,502 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 275, in svs_region_to_probmat_save_img_mask
+    print(input_data.type)
+AttributeError: 'numpy.ndarray' object has no attribute 'type'
+2019-08-01 08:07:00,852 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 283, in svs_region_to_probmat_save_img_mask
+    cv2.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+NameError: name 'cv2' is not defined
+2019-08-01 08:07:49,238 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 284, in svs_region_to_probmat_save_img_mask
+    cv2.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+AttributeError: module 'cv2.cv2' has no attribute 'imsave'
+2019-08-01 08:09:15,205 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 283, in svs_region_to_probmat_save_img_mask
+    plt.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+NameError: name 'plt' is not defined
+2019-08-01 09:08:54,777 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 286, in svs_region_to_probmat_save_img_mask
+    cv2.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+NameError: name 'cv2' is not defined
+2019-08-01 09:09:39,070 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 287, in svs_region_to_probmat_save_img_mask
+    cv2.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+AttributeError: module 'cv2.cv2' has no attribute 'imsave'
+2019-08-01 09:43:21,047 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 287, in svs_region_to_probmat_save_img_mask
+    cv2.imshow(input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+TypeError: Required argument 'mat' (pos 2) not found
+2019-08-05 09:18:50,686 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 283, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),region_raw_tensor[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 253, in imsave
+    raise ValueError("Invalid shape for image array: %s" % (arr.shape, ))
+ValueError: Invalid shape for image array: (2, 299, 299, 3)
+2019-08-05 09:22:33,090 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 283, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 409, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 236, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
+2019-08-05 09:27:52,011 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 283, in svs_region_to_probmat_save_img_mask
+    print(input_data.type)
+AttributeError: 'numpy.ndarray' object has no attribute 'type'
+2019-08-05 09:32:45,203 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 285, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 409, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 236, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
+2019-08-05 09:33:49,236 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 285, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 409, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 236, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
+2019-08-05 09:39:44,960 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 286, in svs_region_to_probmat_save_img_mask
+    io.imsave(os.path.join(img_save_dir,f"{file_name}_{w}_{h}_{l}.png"),input_data[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_io.py", line 133, in imsave
+    return call_plugin('imsave', fname, arr, plugin=plugin, **plugin_args)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 211, in call_plugin
+    return func(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 259, in imsave
+    img = ndarray_to_pil(arr, format_str=format_str)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 163, in ndarray_to_pil
+    arr = img_as_ubyte(arr)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 409, in img_as_ubyte
+    return convert(image, np.uint8, force_copy)
+  File "/root/anaconda3/lib/python3.6/site-packages/skimage/util/dtype.py", line 236, in convert
+    raise ValueError("Images of type float must be between -1 and 1.")
+ValueError: Images of type float must be between -1 and 1.
+2019-08-05 09:41:41,528 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 299, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+UnboundLocalError: local variable 'mask_whole' referenced before assignment
+2019-08-05 09:46:10,906 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 300, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+NameError: name 'mask_whole' is not defined
+2019-08-05 09:47:34,910 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+NameError: name 'mask_whole' is not defined
+2019-08-05 09:48:57,350 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 302, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+NameError: name 'mask_whole' is not defined
+2019-08-05 12:14:31,541 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 302, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+NameError: name 'mask_whole' is not defined
+2019-08-05 12:18:14,941 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 303, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+NameError: name 'mask_whole' is not defined
+2019-08-05 12:53:18,251 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)
+NameError: name 'mask_whole' is not defined
+2019-08-05 13:52:19,366 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:01:03,755 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 302, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:07:58,178 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV057003 STZ+HFD #123.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 302, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:08:11,599 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G3-43.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 302, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:09:13,253 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G4-24.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 302, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:37:03,341 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 300, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:43:56,870 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV057003 STZ+HFD #123.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 300, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:44:09,422 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G3-43.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 300, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:45:08,679 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G4-24.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 300, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 01:52:52,264 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 02:11:02,666 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 02:17:57,899 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV057003 STZ+HFD #123.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 02:18:11,002 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G3-43.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 02:19:15,573 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G4-24.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 301, in svs_region_to_probmat_save_img_mask
+    mask_whole = np.transpose(mask_whole)   #mask_whole
+NameError: name 'mask_whole' is not defined
+2019-08-06 02:41:02,286 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV005001-CDA Liver-G2-4 VF-4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 284, in svs_region_to_probmat_save_img_mask
+    np.save(os.path.join(mask_save_dir,f"{file_name}_{w}_{h}_{l}.npy"),imagesMask[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+TypeError: list indices must be integers or slices, not tuple
+2019-08-06 02:47:55,217 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV057003 STZ+HFD #123.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 284, in svs_region_to_probmat_save_img_mask
+    np.save(os.path.join(mask_save_dir,f"{file_name}_{w}_{h}_{l}.npy"),imagesMask[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+TypeError: list indices must be integers or slices, not tuple
+2019-08-06 02:48:08,391 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G3-43.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 284, in svs_region_to_probmat_save_img_mask
+    np.save(os.path.join(mask_save_dir,f"{file_name}_{w}_{h}_{l}.npy"),imagesMask[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+TypeError: list indices must be integers or slices, not tuple
+2019-08-06 02:49:12,607 - error - ERROR - Inference /cptjack/totem/barrylee/liver/LIV999004 STZ+HFD+CHOL HE-G4-24.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/probmat_utils.py", line 444, in walk_file
+    svs_region_to_probmat_save_img_mask(slide,svs_name,patch_R, patch_C, seg_model,patch_size,img_save_dir,mask_save_dir)
+  File "/cptjack/totem/barrylee/Mask-RCNN-liver/utils/region_process.py", line 284, in svs_region_to_probmat_save_img_mask
+    np.save(os.path.join(mask_save_dir,f"{file_name}_{w}_{h}_{l}.npy"),imagesMask[l * patch_C : patch_C * (l + 1) , :patch_C, :])
+TypeError: list indices must be integers or slices, not tuple
+2019-08-15 03:28:35,902 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    cv2.imwrite(out_mask,imagesMask)
+TypeError: img data type = 0 is not supported
+2019-08-15 03:28:37,617 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    cv2.imwrite(out_mask,imagesMask)
+TypeError: img data type = 0 is not supported
+2019-08-15 03:28:39,160 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-2.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    cv2.imwrite(out_mask,imagesMask)
+TypeError: img data type = 0 is not supported
+2019-08-15 03:28:40,295 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-3.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    cv2.imwrite(out_mask,imagesMask)
+TypeError: img data type = 0 is not supported
+2019-08-15 03:28:41,466 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-37.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    cv2.imwrite(out_mask,imagesMask)
+TypeError: img data type = 0 is not supported
+2019-08-15 03:28:42,793 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-38.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    cv2.imwrite(out_mask,imagesMask)
+TypeError: img data type = 0 is not supported
+2019-08-15 09:03:31,361 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1327, in _do_call
+    return fn(*args)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1312, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1420, in _call_tf_sessionrun
+    status, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 516, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[6000,7,7,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: roi_align_classifier/concat = ConcatV2[N=4, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](roi_align_classifier/CropAndResize, roi_align_classifier/CropAndResize_1, roi_align_classifier/CropAndResize_2, roi_align_classifier/CropAndResize_3, roi_align_mask/concat/axis)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/ExpandDims/_4299 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_3983_mrcnn_detection/ExpandDims", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 236, in svs_region_to_probmat_save_img_mask
+    imagesMask = maskrcnn_detection(seg_model, [input_data])
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 43, in maskrcnn_detection
+    results = model.detect(image, verbose=1)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 2525, in detect
+    self.keras_model.predict([molded_images, image_metas, anchors], verbose=0)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 1172, in predict
+    steps=steps)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training_arrays.py", line 297, in predict_loop
+    batch_outs = f(ins_batch)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2667, in __call__
+    return self._legacy_call(inputs)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2649, in _legacy_call
+    **self.session_kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1140, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1340, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[6000,7,7,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: roi_align_classifier/concat = ConcatV2[N=4, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](roi_align_classifier/CropAndResize, roi_align_classifier/CropAndResize_1, roi_align_classifier/CropAndResize_2, roi_align_classifier/CropAndResize_3, roi_align_mask/concat/axis)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/ExpandDims/_4299 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_3983_mrcnn_detection/ExpandDims", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'roi_align_classifier/concat', defined at:
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 386, in <module>
+    pydevconsole.start_client(host, port)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 327, in start_client
+    process_exec_queue(interpreter)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 174, in process_exec_queue
+    more = interpreter.add_exec(code_fragment)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_code_executor.py", line 106, in add_exec
+    more = self.do_add_exec(code_fragment)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console.py", line 39, in do_add_exec
+    res = bool(self.interpreter.add_exec(code_fragment.text))
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py", line 441, in add_exec
+    self.ipython.run_cell(line, store_history=True)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2662, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2785, in _run_cell
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2909, in run_ast_nodes
+    if self.run_code(code, result):
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2963, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-609e316e102a>", line 1, in <module>
+    runfile('/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py', wdir='/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn')
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 30, in <module>
+    tf.app.run()
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 126, in run
+    _sys.exit(main(argv))
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 26, in main
+    walk_file()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 403, in walk_file
+    seg_model = load_maskrcnn_model()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 89, in load_maskrcnn_model
+    model = modellib.MaskRCNN(mode="inference", model_dir=LOGS_DIR, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 1836, in __init__
+    self.keras_model = self.build(mode=mode, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 2038, in build
+    fc_layers_size=config.FPN_CLASSIF_FC_LAYERS_SIZE)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 924, in fpn_classifier_graph
+    name="roi_align_classifier")([rois, image_meta] + feature_maps)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/base_layer.py", line 460, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 424, in call
+    pooled = tf.concat(pooled, axis=0)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1181, in concat
+    return gen_array_ops.concat_v2(values=values, axis=axis, name=name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 949, in concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3290, in create_op
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1654, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[6000,7,7,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: roi_align_classifier/concat = ConcatV2[N=4, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](roi_align_classifier/CropAndResize, roi_align_classifier/CropAndResize_1, roi_align_classifier/CropAndResize_2, roi_align_classifier/CropAndResize_3, roi_align_mask/concat/axis)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/ExpandDims/_4299 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_3983_mrcnn_detection/ExpandDims", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+2019-08-15 09:04:27,581 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1327, in _do_call
+    return fn(*args)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1312, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1420, in _call_tf_sessionrun
+    status, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 516, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[6000,7,7,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: roi_align_classifier/concat = ConcatV2[N=4, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](roi_align_classifier/CropAndResize, roi_align_classifier/CropAndResize_1, roi_align_classifier/CropAndResize_2, roi_align_classifier/CropAndResize_3, roi_align_mask/concat/axis)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/ExpandDims/_4299 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_3983_mrcnn_detection/ExpandDims", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 236, in svs_region_to_probmat_save_img_mask
+    imagesMask = maskrcnn_detection(seg_model, [input_data])
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 43, in maskrcnn_detection
+    results = model.detect(image, verbose=1)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 2525, in detect
+    self.keras_model.predict([molded_images, image_metas, anchors], verbose=0)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 1172, in predict
+    steps=steps)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training_arrays.py", line 297, in predict_loop
+    batch_outs = f(ins_batch)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2667, in __call__
+    return self._legacy_call(inputs)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2649, in _legacy_call
+    **self.session_kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1140, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1340, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[6000,7,7,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: roi_align_classifier/concat = ConcatV2[N=4, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](roi_align_classifier/CropAndResize, roi_align_classifier/CropAndResize_1, roi_align_classifier/CropAndResize_2, roi_align_classifier/CropAndResize_3, roi_align_mask/concat/axis)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/ExpandDims/_4299 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_3983_mrcnn_detection/ExpandDims", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'roi_align_classifier/concat', defined at:
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 386, in <module>
+    pydevconsole.start_client(host, port)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 327, in start_client
+    process_exec_queue(interpreter)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 174, in process_exec_queue
+    more = interpreter.add_exec(code_fragment)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_code_executor.py", line 106, in add_exec
+    more = self.do_add_exec(code_fragment)
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console.py", line 39, in do_add_exec
+    res = bool(self.interpreter.add_exec(code_fragment.text))
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py", line 441, in add_exec
+    self.ipython.run_cell(line, store_history=True)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2662, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2785, in _run_cell
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2909, in run_ast_nodes
+    if self.run_code(code, result):
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2963, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-609e316e102a>", line 1, in <module>
+    runfile('/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py', wdir='/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn')
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/root/Downloads/pycharm-2018.3.7/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 30, in <module>
+    tf.app.run()
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 126, in run
+    _sys.exit(main(argv))
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 26, in main
+    walk_file()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 403, in walk_file
+    seg_model = load_maskrcnn_model()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 89, in load_maskrcnn_model
+    model = modellib.MaskRCNN(mode="inference", model_dir=LOGS_DIR, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 1836, in __init__
+    self.keras_model = self.build(mode=mode, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 2038, in build
+    fc_layers_size=config.FPN_CLASSIF_FC_LAYERS_SIZE)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 924, in fpn_classifier_graph
+    name="roi_align_classifier")([rois, image_meta] + feature_maps)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/base_layer.py", line 460, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 424, in call
+    pooled = tf.concat(pooled, axis=0)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1181, in concat
+    return gen_array_ops.concat_v2(values=values, axis=axis, name=name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 949, in concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3290, in create_op
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1654, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[6000,7,7,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: roi_align_classifier/concat = ConcatV2[N=4, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:GPU:0"](roi_align_classifier/CropAndResize, roi_align_classifier/CropAndResize_1, roi_align_classifier/CropAndResize_2, roi_align_classifier/CropAndResize_3, roi_align_mask/concat/axis)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/ExpandDims/_4299 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_3983_mrcnn_detection/ExpandDims", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+2019-08-15 11:26:00,342 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:08,768 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:16,976 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-2.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:20,061 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-3.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:21,938 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-37.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:26,556 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-38.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:28,252 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-39.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:30,809 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-40.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:32,132 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-41.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:26:36,244 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-42.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:27:12,488 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2,3))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:27:21,141 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2,3))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:27:29,403 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-2.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2,3))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:27:32,638 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-3.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2,3))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:27:34,511 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-37.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 238, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2,3))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:28:16,785 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 239, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w*2,h*2,3))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:29:51,551 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 239, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src data type = 0 is not supported
+2019-08-15 11:30:00,896 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 239, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src data type = 0 is not supported
+2019-08-15 12:25:05,903 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 239, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src data type = 0 is not supported
+2019-08-15 13:35:25,051 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 240, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-15 13:36:39,509 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 240, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-15 13:36:48,741 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 240, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-15 13:38:55,872 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 240, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-15 15:33:18,663 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 237, in svs_region_to_probmat_save_img_mask
+    print(imagesMask.dtype)
+AttributeError: 'list' object has no attribute 'dtype'
+2019-08-15 15:33:27,123 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 237, in svs_region_to_probmat_save_img_mask
+    print(imagesMask.dtype)
+AttributeError: 'list' object has no attribute 'dtype'
+2019-08-15 15:34:23,331 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 241, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-15 15:34:32,236 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 241, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-15 15:39:35,997 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 240, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:01:21,740 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 239, in svs_region_to_probmat_save_img_mask
+    for c in range(imagesMask[2]):
+TypeError: only integer scalar arrays can be converted to a scalar index
+2019-08-16 03:03:05,868 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-0.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:03:39,096 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-1.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:04,715 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-2.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:10,392 - error - ERROR - Inference LIV057003 STZ+HFD #123 HE-rectangle-3.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:13,531 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-37.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:24,462 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-38.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:26,791 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-39.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:30,748 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-40.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:32,298 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-41.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-08-16 03:04:42,031 - error - ERROR - Inference LIV999004 STZ+HFD+CHOL G4-24 HE-rectangle-42.jpg Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 256, in svs_region_to_probmat_save_img_mask
+    imagesMask = cv2.resize(imagesMask,(w/2,h/2))
+TypeError: src is not a numpy array, neither a scalar
+2019-11-19 08:28:43,965 - error - ERROR - Inference #142-1013.png Error
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1327, in _do_call
+    return fn(*args)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1312, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1420, in _call_tf_sessionrun
+    status, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 516, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[1,64,1600,1600] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv1/convolution-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/strided_slice_24/_4307 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_4008_mrcnn_detection/strided_slice_24", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file.split('.')[0])
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 237, in svs_region_to_probmat_save_img_mask
+    imagesMask = maskrcnn_detection(seg_model, [input_data])
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 44, in maskrcnn_detection
+    results = model.detect(image, verbose=1)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 2525, in detect
+    self.keras_model.predict([molded_images, image_metas, anchors], verbose=0)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 1172, in predict
+    steps=steps)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training_arrays.py", line 297, in predict_loop
+    batch_outs = f(ins_batch)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2667, in __call__
+    return self._legacy_call(inputs)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2649, in _legacy_call
+    **self.session_kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1140, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1340, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[1,64,1600,1600] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv1/convolution-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/strided_slice_24/_4307 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_4008_mrcnn_detection/strided_slice_24", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'conv1/convolution', defined at:
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 386, in <module>
+    pydevconsole.start_client(host, port)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 327, in start_client
+    process_exec_queue(interpreter)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 174, in process_exec_queue
+    more = interpreter.add_exec(code_fragment)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_code_executor.py", line 106, in add_exec
+    more = self.do_add_exec(code_fragment)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console.py", line 39, in do_add_exec
+    res = bool(self.interpreter.add_exec(code_fragment.text))
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py", line 441, in add_exec
+    self.ipython.run_cell(line, store_history=True)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2662, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2785, in _run_cell
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2909, in run_ast_nodes
+    if self.run_code(code, result):
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2963, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-609e316e102a>", line 1, in <module>
+    runfile('/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py', wdir='/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn')
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 23, in <module>
+    tf.app.run()
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 126, in run
+    _sys.exit(main(argv))
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 21, in main
+    walk_file()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 403, in walk_file
+    seg_model = load_maskrcnn_model()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 89, in load_maskrcnn_model
+    model = modellib.MaskRCNN(mode="inference", model_dir=LOGS_DIR, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 1836, in __init__
+    self.keras_model = self.build(mode=mode, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 1901, in build
+    stage5=True, train_bn=config.TRAIN_BN)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 178, in resnet_graph
+    x = KL.Conv2D(64, (7, 7), strides=(2, 2), name='conv1', use_bias=True)(x)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/base_layer.py", line 460, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/layers/convolutional.py", line 168, in call
+    dilation_rate=self.dilation_rate)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 3566, in conv2d
+    data_format=tf_data_format)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 782, in convolution
+    return op(input, filter)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 870, in __call__
+    return self.conv_op(inp, filter)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 522, in __call__
+    return self.call(inp, filter)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 206, in __call__
+    name=self.name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 953, in conv2d
+    data_format=data_format, dilations=dilations, name=name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3290, in create_op
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1654, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[1,64,1600,1600] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv1/convolution-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/strided_slice_24/_4307 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_4008_mrcnn_detection/strided_slice_24", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+2019-11-19 08:28:56,743 - error - ERROR - Inference #142-1111.png Error
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1327, in _do_call
+    return fn(*args)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1312, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1420, in _call_tf_sessionrun
+    status, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 516, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[1,64,1600,1600] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv1/convolution-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/strided_slice_24/_4307 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_4008_mrcnn_detection/strided_slice_24", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 415, in walk_file
+    svs_region_to_probmat_save_img_mask(input_name,seg_model,mask_save_dir,file.split('.')[0])
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 237, in svs_region_to_probmat_save_img_mask
+    imagesMask = maskrcnn_detection(seg_model, [input_data])
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/region_process.py", line 44, in maskrcnn_detection
+    results = model.detect(image, verbose=1)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 2525, in detect
+    self.keras_model.predict([molded_images, image_metas, anchors], verbose=0)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 1172, in predict
+    steps=steps)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/training_arrays.py", line 297, in predict_loop
+    batch_outs = f(ins_batch)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2667, in __call__
+    return self._legacy_call(inputs)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2649, in _legacy_call
+    **self.session_kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1140, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    run_metadata)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1340, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[1,64,1600,1600] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv1/convolution-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/strided_slice_24/_4307 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_4008_mrcnn_detection/strided_slice_24", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'conv1/convolution', defined at:
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 386, in <module>
+    pydevconsole.start_client(host, port)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 327, in start_client
+    process_exec_queue(interpreter)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/pydevconsole.py", line 174, in process_exec_queue
+    more = interpreter.add_exec(code_fragment)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_code_executor.py", line 106, in add_exec
+    more = self.do_add_exec(code_fragment)
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console.py", line 39, in do_add_exec
+    res = bool(self.interpreter.add_exec(code_fragment.text))
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py", line 441, in add_exec
+    self.ipython.run_cell(line, store_history=True)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2662, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2785, in _run_cell
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2909, in run_ast_nodes
+    if self.run_code(code, result):
+  File "/root/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2963, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-609e316e102a>", line 1, in <module>
+    runfile('/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py', wdir='/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn')
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_bundle/pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/cptjack/totem/barrylee/pycharm-2018.3.7/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 23, in <module>
+    tf.app.run()
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 126, in run
+    _sys.exit(main(argv))
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/main.py", line 21, in main
+    walk_file()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 403, in walk_file
+    seg_model = load_maskrcnn_model()
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/utils/probmat_utils.py", line 89, in load_maskrcnn_model
+    model = modellib.MaskRCNN(mode="inference", model_dir=LOGS_DIR, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 1836, in __init__
+    self.keras_model = self.build(mode=mode, config=config)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 1901, in build
+    stage5=True, train_bn=config.TRAIN_BN)
+  File "/cptjack/totem/barrylee/cell_classification_codes/mask-rcnn/Mask_RCNN/mrcnn/model.py", line 178, in resnet_graph
+    x = KL.Conv2D(64, (7, 7), strides=(2, 2), name='conv1', use_bias=True)(x)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/engine/base_layer.py", line 460, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/layers/convolutional.py", line 168, in call
+    dilation_rate=self.dilation_rate)
+  File "/root/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 3566, in conv2d
+    data_format=tf_data_format)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 782, in convolution
+    return op(input, filter)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 870, in __call__
+    return self.conv_op(inp, filter)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 522, in __call__
+    return self.call(inp, filter)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 206, in __call__
+    name=self.name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 953, in conv2d
+    data_format=data_format, dilations=dilations, name=name)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3290, in create_op
+    op_def=op_def)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1654, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[1,64,1600,1600] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[Node: conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NCHW", dilations=[1, 1, 1, 1], padding="VALID", strides=[1, 1, 2, 2], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv1/convolution-0-TransposeNHWCToNCHW-LayoutOptimizer, conv1/kernel/read)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[Node: mrcnn_detection/strided_slice_24/_4307 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_4008_mrcnn_detection/strided_slice_24", tensor_type=DT_INT64, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
