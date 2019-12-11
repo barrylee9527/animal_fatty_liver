@@ -11,6 +11,7 @@
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片2.png"  height="200" width="200">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片3.png"  height="200" width="200">
 </figure>
+
 ### 分出hepatocyte之后，再从中分三类
  
         ballooning                    normal                      steatosis
@@ -125,6 +126,7 @@ three-classi.py是进行调整学习率训练模型的代码
 # 使用数据清单
 
 # 历史训练结果
+
 ## 模型1的训练结果
 
 ### 训练过程
@@ -133,6 +135,7 @@ three-classi.py是进行调整学习率训练模型的代码
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片10.png"  height="200" width="400">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/54.png"  height="200" width="400">
 </figure>
+
 ### 混淆矩阵
 
 <figure class="third">
@@ -149,6 +152,7 @@ three-classi.py是进行调整学习率训练模型的代码
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片11.png"  height="200" width="400">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片66.png"  height="200" width="400">
 </figure>
+
 ### 混淆矩阵
 
 <figure class="third">
