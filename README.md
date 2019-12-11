@@ -22,7 +22,7 @@
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片9.png"  height="200" width="200">
 </figure>
 
-### 注意：第一个三分类模型输入是72*72，裁切图片的时候patch为54*54，第二个模型输入是96*96，裁切图片的时候patch为96*96
+### 注意：第一个三分类模型输入是(72,72)，裁切图片的时候patch为(54,54)，第二个模型输入是(96,96)，裁切图片的时候patch为(96,96)
 
 ## 2.项目具体流程
 
