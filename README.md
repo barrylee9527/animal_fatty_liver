@@ -5,7 +5,7 @@
 当非酒精性脂肪肝病发展到严重的炎症阶段，肝脏内巨噬细胞就会异常活跃起来，它们会从血液中募集更多兄弟炎症细胞，例如白细胞就会进到肝脏里面，出现炎症细胞浸润。“这个时候如果做病理分析，就会看到肝脏里面有很多炎症细胞，围着变大的肝脏细胞。，这就说明肝脏细胞里边“出事儿”了，不要以为炎症细胞是去解救肝脏细胞的，很可能炎症细胞已经认为它是不正常细胞，想把它干掉。而这个机制与肝炎病毒入侵后，免疫系统对带毒肝脏细胞的“绞杀”很相似.
 
         hepatocyte                 immune_cells                   other_cells 
-        
+
 <figure class="third">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片1.png"  height="200" width="200">
     <img src="https://github.com/barrylee9527/animal_fatty_liver/blob/master/imgs/图片2.png"  height="200" width="200">
