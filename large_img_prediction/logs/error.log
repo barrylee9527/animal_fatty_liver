@@ -1,0 +1,142 @@
+2019-10-25 03:42:07,977 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 113, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:42:10,005 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 113, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:42:10,012 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 113, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:42:11,181 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 113, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:42:13,439 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 113, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:47:59,487 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 114, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:48:01,457 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 114, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:48:01,465 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 114, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:48:02,521 - error - ERROR - Cell Classification Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 150, in cancer_cell_caculating
+    result = read_process(size_img,im_input,mask_data,coordinate,large_flag,model1,model2,patch_size,predict,single_img_test)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/cell_classifition/cell_classifition.py", line 114, in read_process
+    region_raw_tensor[0,:,:,:] = region/255
+ValueError: could not broadcast input array from shape (72,72,3) into shape (72,72,6)
+2019-10-25 03:50:51,923 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#1.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 222, in walk_file
+    cell_cls_prediction_info, svs_W_H_info = svs_to_probmat(slide,patch_R, patch_C, seg_model,cls_model1,cls_model2,patch_size,cell_predict)
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/region_process.py", line 181, in svs_to_probmat
+    cell_cls_prediction_info = np.row_stack((cell_cls_prediction_info, image_result_list[each - valit_flag]))
+  File "/root/anaconda3/lib/python3.6/site-packages/numpy/core/shape_base.py", line 234, in vstack
+    return _nx.concatenate([atleast_2d(_m) for _m in tup], 0)
+ValueError: all the input array dimensions except for the concatenation axis must match exactly
+2019-10-25 04:54:02,612 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#1.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    slide.close()
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 06:42:01,840 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#10.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 07:52:42,780 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#2.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 10:09:33,233 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#27.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 11:36:10,072 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#3.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 13:01:46,976 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#4.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 15:16:01,946 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#5.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 16:35:43,441 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#7.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 18:21:48,141 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#8.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object
+2019-10-25 19:39:28,183 - error - ERROR - Inference /cptjack/totem/barrylee/NASH-ndpi/NASH-test/#9.ndpi Error
+Traceback (most recent call last):
+  File "/cptjack/totem/barrylee/ndpi-maskrcnn/utils/probmat_utils.py", line 234, in walk_file
+    except Exception:
+  File "/root/anaconda3/lib/python3.6/site-packages/openslide/__init__.py", line 168, in close
+    lowlevel.close(self._osr)
+ctypes.ArgumentError: argument 1: <class 'ValueError'>: Passing closed slide object

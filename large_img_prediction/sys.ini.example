@@ -1,0 +1,15 @@
+[DEFAULT]
+
+MASK_RCNN_SEG_MODEL = the path of mask rcnn model 's weight
+CELL_CLASSIFICATION_MODEL1 = the path of first cell classification 's weight
+CELL_CLASSIFICATION_MODEL2 = the path of second cell classification 's weight
+
+INPUT_IMAGE_DIR = WSI file path
+GPU_COUNT = 1
+## The number of GPUS that you want to use in the whole processing of mask rcnn detection,which should be greater tha 1.
+GPU_USE = 1
+## The ID of graphic cards you assign to this task,which can be viewed by command 'nvidia-smi'
+
+[UTILS_HEATMAP]
+SVS_DIR = WSI file path 
+PKL_DIR = pkl file path
