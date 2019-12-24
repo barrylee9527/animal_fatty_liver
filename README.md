@@ -86,6 +86,7 @@ xml_utils.py是进行大图xml的解析代码，有时候比如ballooning数量�
 从WSI大图进行截图→MaskRCNN分割→根据分割结果进行标注→根据标注进行采样→根据采样的样本进行训练→对分割截图进行可视化预测→对标注进行完善→再训练。
 具体可以参考以下流程：
 
+
 ```mermaid
 graph TB
 
@@ -106,6 +107,7 @@ graph TB
     condictionA  -- 否  --> modelstop[结束,固定模型]
     modelstop --> stop[进行大图预测可视化]
 ```
+
 
 ## TRAIN_TEST
 该文件夹存放训练相关的代码
@@ -162,28 +164,28 @@ graph TB
 ### 训练过程
 <figure class="third">
     <img src="./imgs/图片10.png"  height="200" width="400">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/54.png"  height="200" width="400">
+    <img src="./imgs/54.png"  height="200" width="400">
 </figure>
 ### 混淆矩阵
 <figure class="third">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/图片20.png"  height="200" width="480">
+    <img src="./imgs/图片20.png"  height="200" width="480">
 </figure>
 ## 模型2的训练结果
 ### 训练过程
 <figure class="third">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/图片11.png"  height="200" width="400">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/图片66.png"  height="200" width="400">
+    <img src="./imgs/图片11.png"  height="200" width="400">
+    <img src="./imgs/图片66.png"  height="200" width="400">
 </figure>
 ### 混淆矩阵
 <figure class="third">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/图片15.png"  height="200" width="480">
+    <img src="./imgs/图片15.png"  height="200" width="480">
 </figure>
 ## 模型预测的可视化
-![相应颜色](http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/图片52.png)
+![相应颜色](./imgs/图片52.png)
 <figure class="third">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/%231-129.png"  height="250" width="250">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/%231-514.png"  height="250" width="250">
-    <img src="http://192.168.3.126/barry/Animal_liver_cell_classification/raw/master/imgs/%23142-1510.png"  height="250" width="250">
+    <img src="./imgs/%231-129.png"  height="250" width="250">
+    <img src="./imgs/%231-514.png"  height="250" width="250">
+    <img src="./imgs/%23142-1510.png"  height="250" width="250">
 </figure>
 
 
