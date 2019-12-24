@@ -1,3 +1,6 @@
+---
+mermaid: true
+---
 # 非酒精性脂肪肝细胞的分类
 # 项目背景介绍
 ## 1.项目研究意义
@@ -97,24 +100,23 @@ xml_utils.py是进行大图xml的解析代码，有时候比如ballooning数量�
 具体可以参考以下流程：
 
 ```mermaid
-graph TB
-
-	printE[根据EXCEL文件开始采样工作]
-    printE --> printF[在WSI大图中选择区域]
-    printF --> printA[利用MaskRCNN进行区域截图并进行细胞分割]
-    printA --> printC[800*800截图原图]
-    printC --> printG[根据Mask为细胞轮廓着色]
-    printG -- 标注辅助图  -- 根据具体情况对轮廓着色比如有时可能先要预测 --> printB[标注员进行标注]
-    printC --> printB
-    printB -- 完成该次标注  --> printH[获取标注图]
-    printH -->  printD[根据标注图生成训练样本]
-	printD -- 数据增强+数据处理 --> printI[模型训练]
-    printI -- 优化+收敛 --> printL[对800*800截图原图进行预测]
-    printL -- 只对预测和标签不一致的进行着色 --> printN[生成可视化对比图,轮廓为标注色,描点为预测色]
-    printN --> condictionA{标注员确定是否需要修改/补充}
-    condictionA  -- 是  --> printB
-    condictionA  -- 否  --> modelstop[结束,固定模型]
-    modelstop --> stop[进行大图预测可视化]
+graph TB;
+	printE[根据EXCEL文件开始采样工作];
+    printE --> printF[在WSI大图中选择区域];
+    printF --> printA[利用MaskRCNN进行区域截图并进行细胞分割];
+    printA --> printC[800*800截图原图];
+    printC --> printG[根据Mask为细胞轮廓着色];
+    printG -- 标注辅助图  -- 根据具体情况对轮廓着色比如有时可能先要预测 --> printB[标注员进行标注];
+    printC --> printB;
+    printB -- 完成该次标注  --> printH[获取标注图];
+    printH -->  printD[根据标注图生成训练样本];
+	printD -- 数据增强+数据处理 --> printI[模型训练];
+    printI -- 优化+收敛 --> printL[对800*800截图原图进行预测];
+    printL -- 只对预测和标签不一致的进行着色 --> printN[生成可视化对比图,轮廓为标注色,描点为预测色];
+    printN --> condictionA{标注员确定是否需要修改/补充};
+    condictionA  -- 是  --> printB;
+    condictionA  -- 否  --> modelstop[结束,固定模型];
+    modelstop --> stop[进行大图预测可视化];
 ```
 
 ## TRAIN_TEST
