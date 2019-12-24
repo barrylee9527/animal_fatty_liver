@@ -99,8 +99,8 @@ xml_utils.py是进行大图xml的解析代码，有时候比如ballooning数量�
 从WSI大图进行截图→MaskRCNN分割→根据分割结果进行标注→根据标注进行采样→根据采样的样本进行训练→对分割截图进行可视化预测→对标注进行完善→再训练。
 具体可以参考以下流程：
 
-``mermaid
-graph TB
+```mermaid
+    graph TB
 	printE[根据EXCEL文件开始采样工作]
     printE --> printF[在WSI大图中选择区域]
     printF --> printA[利用MaskRCNN进行区域截图并进行细胞分割]
@@ -117,7 +117,7 @@ graph TB
     condictionA  -- 是  --> printB
     condictionA  -- 否  --> modelstop[结束,固定模型]
     modelstop --> stop[进行大图预测可视化]
-``
+```
 
 ## TRAIN_TEST
 
