@@ -10,9 +10,7 @@ mermaid: true
         hepatocyte                 immune_cells                   other_cells
 
 <figure class="third">
-    <img src="./imgs/图片1.png"  height="200" width="200">
-    <img src="./imgs/图片2.png"  height="200" width="200">
-    <img src="./imgs/图片3.png"  height="200" width="200">
+    <img src="./imgs/图片1.png"  height="200" width="200"><img src="./imgs/图片2.png"  height="200" width="200"><img src="./imgs/图片3.png"  height="200" width="200">
 </figure>
 
 ### 分出hepatocyte之后，再从中分三类
@@ -20,9 +18,7 @@ mermaid: true
         ballooning                    normal                      steatosis
 
 <figure class="third">
-    <img src="./imgs/图片7.png"  height="200" width="200">
-    <img src="./imgs/图片8.png"  height="200" width="200">
-    <img src="./imgs/图片9.png"  height="200" width="200">
+    <img src="./imgs/图片7.png"  height="200" width="200"><img src="./imgs/图片8.png"  height="200" width="200"><img src="./imgs/图片9.png"  height="200" width="200">
 </figure>
 
 ### 注意：第一个三分类模型输入是(72,72)，裁切图片的时候patch为(54,54)，第二个模型输入是(96,96)，裁切图片的时候patch为(96,96)
